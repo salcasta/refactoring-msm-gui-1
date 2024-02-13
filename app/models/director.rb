@@ -17,7 +17,7 @@ class Director < ApplicationRecord
 
     matching_movies = Movie.where({ :director_id => my_id })
 
-    return matching movies
+    return matching_movies
   end
 end
 
